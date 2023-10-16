@@ -1,7 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Create a WebDriver instance
@@ -28,7 +26,6 @@ login_button.click()
 time.sleep(10)  # You can adjust the sleep duration as needed
 
 # You are now logged in. Add any additional actions or navigate to different pages as needed.
-# next_page_html = driver.page_source
-# print(next_page_html)
+
 # Finally, don't forget to close the WebDriver when you're done
 driver.quit()

@@ -1,6 +1,6 @@
-You Must need to install webdriver such as Chromedriver, EdgeDriver, etc.
+You may need to install web drivers such as Chromedriver, EdgeDriver, etc.
 
-Then You need to install the latest verson of selenium:
+Then You need to install the latest version of Selenium:
 
 pip install selenium
 
